@@ -1,0 +1,138 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* pozadina */
+body {
+    background-color: #ffdbfa;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* glavni naslov */
+h1 {
+    color: #45502c;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+/* podnaslovi */
+h2 {
+    color: #34495e;
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* paragrafi */
+p {
+    color: #555;
+    font-family: 'Verdana', sans-serif;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* slike */
+img {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+/* navigacija */
+.navbar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+/* linkovi u navigaciji */
+.navbar a {
+    color: #2980b9;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+/* ikona za home page */
+.home-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.navbar a:hover {
+    color: #1a5276;
+    text-decoration: underline;
+}
+
+/* tabela za znamenitosti */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+td img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* segmenti stranice */
+.segment {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.segment1 {
+    background-color: #f3e5f5;
+    border: 2px solid #d1c4e9;
+}
+
+.segment2 {
+    background-color: #e1f5fe;
+    border: 2px solid #b3e5fc;
+}
+
+.segment3 {
+    background-color: #e8f5e9;
+    border: 2px solid #c8e6c9;
+}
+
+.segment4 {
+    background-color: #fff3e0;
+    border: 2px solid #ffe0b2;
+}
+
+.segment5 {
+    background-color: #ffebee;
+    border: 2px solid #ffcdd2;
+}
